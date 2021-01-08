@@ -8,6 +8,18 @@
 3. Spring Security
    - Login
       - Create a security module inside the main module and add the configuration
-   - Logout
+4. MVC
+   - Add a Welcome controller to get the username from the auth and direct to the welcome jsp
+   - Add a jsp view that displays the username to the screen
+   - Add the jsp path to the application.properties
+   `spring.mvc.view.prefix=/WEB-INF/jsp/`
+    `spring.mvc.view.suffix=.jsp`
 
 ## Notes
+
+###Embedded Tomcat with JSP template
+Create the jsp file under  `/WEB-INF/jsp/`
+In the controller, return the name of the file
+In application.properties add 
+`spring.mvc.view.prefix=/WEB-INF/jsp/`
+`spring.mvc.view.suffix=.jsp`
