@@ -15,6 +15,7 @@
    `spring.mvc.view.prefix=/WEB-INF/jsp/`
     `spring.mvc.view.suffix=.jsp`
 5. Add Bootstrap dependency, header, footer and navigation bar
+6. Create a logout controller
 
 ## Notes
 
