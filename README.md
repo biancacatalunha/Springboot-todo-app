@@ -24,6 +24,9 @@
    - Create the Todo object
    - Add Lombok dependency for getters and setters
 8. Todo Service which holds the business logic as insert, update, retrieve and delete todos
+10. Add JSTL dependency to be able to loop through the todos in the jsp file
+9. Create a view to display all the todos in a table
+10. Create the TodoController to return all the todos for a user
 
 ## Notes
 
@@ -96,7 +99,6 @@ Immutability - When the object's state cannot be modified after creation.
 
 #### Constructor
 `private DogsController controller;`  
-`@Autowired`  
 `public MyClass(DogsController controller) {`  
 `this.controller = controller;`  
 `}`
@@ -149,6 +151,6 @@ Enable auto restart on changes in Intellij:
 Transitive dependencies are the ones the project needs to work
 
 ### JSTL 
-Java Standard Tags Library
-For loops in the jsp files
+Java Standard Tags Library  
+For loops in the jsp files  
 
