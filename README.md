@@ -27,6 +27,12 @@
 10. Add JSTL dependency to be able to loop through the todos in the jsp file
 9. Create a view to display all the todos in a table
 10. Create the TodoController to return all the todos for a user
+11. Update function
+    - Add update button in list todos view
+    - Import form library in the header
+    - Create todo view
+    - Add get mapping for update requests
+    - Add post mapping that updates the todo using the service
 
 ## Notes
 
